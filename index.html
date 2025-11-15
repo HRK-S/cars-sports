@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Carros Esportivos</title>
+    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="icon" href="img/logo.jpg" type="image/png">
+</head>
+<body>
+
+    <header id="header">
+        
+        <a id="logo" href="index.html">
+            <img src="img/logo.jpg" alt="Logo "> 
+        </a>
+
+        <nav id="nav">
+            
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            
+            <ul id="menu" role="menu">
+                <li><a class="LinkMenu" href="index.html">Home</a></li>
+                <li><a class="LinkMenu" href="produtos.html">Produtos</a></li>
+                <li><a class="LinkMenu" href="#streaming.html">#Streaming</a></li>
+                <li><a class="LinkMenu" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type-="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type-="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type-="button" data-bs-target="#carrval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type-="button" data-bs-target="#carouselExampleInteouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/carro-1.jpg" class="d-block w-100" alt="Carro 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/carro-2.jpg" class="d-block w-100" alt="Carro 2">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/carro-3.jpg" class="d-block w-100" alt="Carro 3">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/carro-4.jpg" class="d-block w-100" alt="Carro 4">
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+
+    <section id="banner-destaque">
+        <div class="banner-conteudo">
+            <img src="img/ex.jpg" alt="Ilustração Carro Esportivo" class="banner-img">
+            <div class="banner-texto">
+                <h2>Paixão em Alta Velocidade</h2>
+                <p>
+                    Bem-vindo ao universo dos carros esportivos. Explore nossos produtos
+                    e veja o que há de novo.
+                </p>
+                <a href="produtos.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/menu.js"></script>
+    
+</body>
+</html>
